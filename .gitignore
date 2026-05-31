@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# Allow directories so Git can traverse into them
+!*/
+
+# Keep HTML files anywhere in the tree
+!*.html
+!**/*.html
+
+# Keep this .gitignore tracked
+!.gitignore

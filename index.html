@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>TUPPs</title>
+    <style>
+        body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;max-width:900px;margin:32px auto;padding:0 16px;color:#111}
+        h1{margin-bottom:8px}
+        .folder{margin:20px 0}
+        .folder h2{font-size:1.05rem;margin:6px 0}
+        ul{margin:6px 0 0 20px}
+        a{color:#0366d6;text-decoration:none}
+        a:hover{text-decoration:underline}
+        .meta{color:#555;font-size:.9rem;margin-bottom:12px}
+    </style>
+</head>
+<body>
+    <h1>TUPPs Legal Pages</h1>
+    <div class="meta">Aşağıdaki HTML dosyaları klasörlerine göre listelenmiştir.</div>
+
+    <div id="listings"></div>
+
+    <script>
+        // Update this structure if you add/remove HTML files or folders.
+        const filesByFolder = {
+            "root": [
+                // list root-level html files except this index if you want
+            ],
+            "VOLO Finans": [
+                "VOLO Finans/privacy_policy_en.html",
+                "VOLO Finans/privacy_policy_tr.html",
+                "VOLO Finans/terms_of_use_en.html",
+                "VOLO Finans/terms_of_use_tr.html"
+            ]
+        };
+
+        const container = document.getElementById('listings');
+
+        Object.keys(filesByFolder).forEach(folder => {
+            const div = document.createElement('div');
+            div.className = 'folder';
+
+            const h2 = document.createElement('h2');
+            h2.textContent = folder === 'root' ? 'Root' : folder;
+            div.appendChild(h2);
+
+            const ul = document.createElement('ul');
+            const list = filesByFolder[folder] || [];
+            if(list.length === 0){
+                const li = document.createElement('li');
+                li.textContent = '(Bu klasörde HTML dosyası yok)';
+                ul.appendChild(li);
+            } else {
+                list.forEach(path => {
+                    const li = document.createElement('li');
+                    const a = document.createElement('a');
+                    a.href = path;
+                    a.textContent = path.split('/').pop();
+                    li.appendChild(a);
+                    ul.appendChild(li);
+                });
+            }
+
+            div.appendChild(ul);
+            container.appendChild(div);
+        });
+    </script>
+</body>
+</html>
