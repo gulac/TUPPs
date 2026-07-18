@@ -20,9 +20,11 @@
 <body>
 
 <h1>Terms of Use</h1>
-<p class="date">Last updated: May 31, 2026</p>
+<p class="date">Last updated: July 18, 2026</p>
 
 <p>These Terms of Use govern your use of the VOLO Finance mobile application ("App"). By downloading, installing, or using the App, you agree to be bound by these terms. If you do not agree, please do not use the App.</p>
+
+<p><strong>Version scope:</strong> These terms apply to all versions of the App. Provisions concerning iCloud Backups apply only to version 1.1.0 and later, in which the feature is available, and only to the extent that you use it. Versions 1.0.x use on-device storage and JSON file export/import only.</p>
 
 <h2>1. Purpose of the App</h2>
 <p>VOLO Finance is a tool designed solely for <strong>investment tracking</strong>. The App allows you to view the current value of assets in your portfolio, record your buy and sell transactions, and monitor your profit/loss status.</p>
@@ -40,15 +42,24 @@
   <li>The developer does not guarantee the continuity, accuracy, or reliability of third-party services.</li>
 </ul>
 
-<h2>3. Data Storage</h2>
-<p>Your portfolio information, transaction records, and app settings are stored <strong>locally on your device only</strong>. The App does not transmit this data to any server or store it in the cloud. If your device is lost, reset, or the App is uninstalled, your data will be permanently deleted.</p>
-<p>The App provides a backup feature that allows you to export your data in JSON format. You are encouraged to use this feature regularly to prevent data loss. Backing up your data is entirely your responsibility.</p>
+<h2>3. Data Storage and Backups</h2>
+<p>Your portfolios, asset and transaction records, archive, watchlist, portfolio notification rules, and app settings are primarily stored <strong>locally on your device</strong>.</p>
+<p>Version 1.1.0 and later provide an optional iCloud Backups feature:</p>
+<ul>
+  <li>Automatic backup is off by default. You may create a manual backup or enable automatic backup.</li>
+  <li>Backups are stored through Apple CloudKit in the private database of your personal iCloud account and may use your iCloud storage quota.</li>
+  <li>A new backup created on the same day replaces that day's unlocked backup. Up to five daily backups are retained, and up to three may be locked to protect them from automatic deletion.</li>
+  <li>Restoring a backup may overwrite current local data. The App asks for confirmation before restoring.</li>
+  <li>Disabling automatic backup or uninstalling the App does not automatically delete existing iCloud backups. You can delete them from Settings &gt; Data &gt; iCloud Backups within the App.</li>
+</ul>
+<p>In every version, you may export your data as a JSON file and import it later. We recommend keeping a current JSON backup as an additional precaution against data loss. You are responsible for checking that your backups remain current and accessible.</p>
 
 <h2>4. Limitation of Liability</h2>
 <ul>
   <li>The App is provided on an <strong>"as is"</strong> and <strong>"as available"</strong> basis, without any express or implied warranties.</li>
   <li>The developer shall not be held liable for any direct, indirect, incidental, special, or consequential damages arising from the use or inability to use the App.</li>
   <li>The developer is not responsible for any financial losses that may result from investment decisions made based on the data displayed in the App.</li>
+  <li>The developer does not guarantee uninterrupted backup or data recovery and is not responsible for backup delays, failures, restore issues, or data loss caused by iCloud, CloudKit, internet connectivity, or device conditions.</li>
   <li>The App may be updated, modified, or discontinued at any time without prior notice.</li>
 </ul>
 

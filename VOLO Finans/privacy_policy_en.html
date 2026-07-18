@@ -20,16 +20,19 @@
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="date">Last updated: May 31, 2026</p>
+<p class="date">Last updated: July 18, 2026</p>
 
 <p>This Privacy Policy explains how the VOLO Finance mobile application ("App") handles your personal data. Your privacy is important to us, and the App has been designed with the principle of collecting as little data as possible.</p>
 
 <div class="highlight">
-<p><strong>VOLO Finance does not collect, transmit, or share any personal data with third parties.</strong></p>
+<p><strong>VOLO Finance does not operate accounts, advertising, tracking, or analytics systems, and it does not collect your portfolio data on developer-operated servers or make that data available to the developer.</strong> In version 1.1.0 and later, if you use the optional iCloud backup feature, the app data described below is transferred through Apple CloudKit to your private iCloud database.</p>
 </div>
 
-<h2>1. Data Collection</h2>
-<p>The App does <strong>not collect</strong> any personal data. Specifically:</p>
+<h2>1. Version Scope</h2>
+<p>This policy applies to all versions of VOLO Finance. <strong>iCloud Backups</strong> were introduced in version 1.1.0; the iCloud provisions in this policy apply only when version 1.1.0 or later is installed and the user uses that feature. Versions 1.0.x do not include iCloud backup; data remains on the device or is manually exported by the user as a JSON file.</p>
+
+<h2>2. Data Not Collected by the Developer</h2>
+<p>The developer does not collect personal data through the App. Specifically:</p>
 <ul>
   <li>No identity information such as name, email address, or phone number is requested or collected.</li>
   <li>No location data is collected.</li>
@@ -38,37 +41,54 @@
   <li>No account creation or sign-in is required.</li>
 </ul>
 
-<h2>2. Data Stored on Device</h2>
-<p>The following data is stored <strong>locally on your device only</strong> and is never transmitted outside the device under any circumstances:</p>
+<h2>3. Data Stored on Device</h2>
+<p>The following data is stored locally on your device:</p>
 <ul>
-  <li>Portfolio information (asset names, quantities, purchase prices, purchase dates)</li>
-  <li>Sell transaction records</li>
-  <li>Watchlist preferences</li>
+  <li>Portfolio, archive, and asset information, including manually defined assets</li>
+  <li>Purchase and sale records and profit/loss calculations</li>
+  <li>Watchlist entries and portfolio notification rules</li>
   <li>App settings (language, sort order, etc.)</li>
 </ul>
-<p>This data is permanently deleted when the App is uninstalled or the device is reset. The App provides a backup feature that allows you to export your data in JSON format. The storage and security of the exported file is entirely your responsibility.</p>
+<p>The “Delete All Data” option in the App deletes local app data. Uninstalling the App or resetting the device may also remove local data; however, previously created iCloud backups may remain in the user’s iCloud account until they are separately deleted.</p>
 
-<h2>3. Third-Party Services</h2>
+<h2>4. Optional iCloud Backups — Version 1.1.0 and Later</h2>
+<p>iCloud backup is off by default. A user may create a manual backup with “Back Up Now” or enable automatic backup. When automatic backup is enabled and app data has changed, the App attempts a backup as it moves to the background.</p>
+<p>An iCloud backup may contain:</p>
+<ul>
+  <li>Active and archived portfolios, assets, quantities, prices, and transaction history</li>
+  <li>User-entered names and prices for manually defined assets</li>
+  <li>Watchlist entries</li>
+  <li>Portfolio notification rules</li>
+  <li>Backup date, app version, a user-written backup description, and lock status</li>
+</ul>
+<p>Backups are stored using Apple CloudKit in the <strong>user-owned private database</strong> within the App’s iCloud container. The private database is not public, is not shared with other users, and is not visible in the developer portal. The data counts against the user’s iCloud storage quota and is subject to Apple’s iCloud security protections.</p>
+<p>Manual or automatic backups created on the same calendar day overwrite the same daily record. Up to 5 backups are kept. Up to 3 backups may be locked, and locked backups are not removed by automatic cleanup. A user may explicitly delete any backup, including a locked backup, from within the App. Uninstalling the App does not automatically delete iCloud backups.</p>
+<p>iCloud backup requires an available iCloud account, iCloud Drive, an internet connection, and sufficient iCloud storage. Turning off the iCloud feature does not automatically delete existing backups.</p>
+
+<h2>5. Manual JSON Export</h2>
+<p>The App allows you to export your data in JSON format and restore it later. The user chooses where the exported file is stored and is responsible for its storage, sharing, and security.</p>
+
+<h2>6. Market Data Providers</h2>
 <p>The App connects to third-party API services to display current market data. During these connections:</p>
 <ul>
-  <li>Only the requested asset symbol (e.g., "TUPRS") is sent to the API provider.</li>
+  <li>Requested asset symbols, search text, and required market identifiers may be sent to the API provider.</li>
   <li>Your personal information, portfolio data, or transaction history is never sent to third-party services.</li>
   <li>Third-party API providers are subject to their own privacy policies, over which the developer has no control.</li>
 </ul>
 
-<h2>4. Children's Privacy</h2>
-<p>The App is not intended for children under the age of 13. We do not knowingly collect personal data from children. Since the App does not collect any personal data whatsoever, this risk does not exist.</p>
+<h2>7. Children's Privacy</h2>
+<p>The App is not intended for children under the age of 13. We do not knowingly collect personal data from children.</p>
 
-<h2>5. Data Security</h2>
-<p>Since all your data is stored locally on your device, data security is directly dependent on your device's security measures (screen lock, encryption, etc.). Ensuring the security of your device is your responsibility.</p>
+<h2>8. Data Security</h2>
+<p>Local data security depends on your device’s screen lock, encryption, and operating-system security. iCloud backups are protected by Apple account security and CloudKit’s account-based access and encryption measures. No electronic storage or transmission method can be guaranteed to be absolutely secure.</p>
 
-<h2>6. Your Rights</h2>
-<p>Since the App does not collect any personal data, requests for data access, correction, or deletion do not apply. You can delete locally stored data at any time by uninstalling the App.</p>
+<h2>9. Your Choices and Data Deletion</h2>
+<p>iCloud backup is optional, and automatic backup can be turned off at any time. Local data can be removed using the in-app deletion option. Individual iCloud backups can be deleted from Settings &gt; Data &gt; iCloud Backups. You may contact us at the email address below with questions about your data.</p>
 
-<h2>7. Changes</h2>
+<h2>10. Changes</h2>
 <p>This Privacy Policy may be updated from time to time. Changes take effect as soon as they are published within the App. In the event of significant changes, a notification will be provided within the App.</p>
 
-<h2>8. Contact</h2>
+<h2>11. Contact</h2>
 <p>For privacy-related questions, you may reach us at:</p>
 <p><strong>Email:</strong> volo.finance@outlook.com</p>
 

@@ -260,7 +260,7 @@
             </details>
             <details class="faq-item">
                 <summary>Verilerim güvende mi?</summary>
-                <p>Tüm verileriniz cihazınızda yerel olarak saklanır. Uygulamaya herhangi bir hesap ile giriş yapmanız gerekmez. Yedekleme özelliği ile verilerinizi dışa aktarıp güvenli bir şekilde saklayabilirsiniz.</p>
+                <p>Verileriniz öncelikle cihazınızda yerel olarak saklanır ve uygulamaya ayrı bir hesapla giriş yapmanız gerekmez. 1.1.0 ve sonraki sürümlerde isteğe bağlı iCloud Yedekleri özelliğini kullanırsanız yedekleriniz Apple CloudKit aracılığıyla kişisel iCloud hesabınızın özel veritabanında saklanır. Otomatik yedekleme varsayılan olarak kapalıdır ve geliştirici bu özel veritabanındaki yedeklerinize erişemez.</p>
             </details>
             <details class="faq-item">
                 <summary>Pro abonelik ne sağlar?</summary>
@@ -276,7 +276,11 @@
             </details>
             <details class="faq-item">
                 <summary>Verilerimi nasıl yedeklerim?</summary>
-                <p>Uygulama içindeki dışa aktarma özelliğini kullanarak verilerinizi bir dosyaya kaydedebilir ve daha sonra geri yükleyebilirsiniz. Cihaz değişikliğinde verilerinizi taşımanın en kolay yoludur.</p>
+                <p>1.1.0 ve sonraki sürümlerde Ayarlar &gt; Veri &gt; iCloud Yedekleri yolundan “Şimdi Yedekle” seçeneğini kullanabilir veya otomatik yedeklemeyi açabilirsiniz. Günde tek kayıt oluşturulur, son beş güne ait yedekler tutulur ve bunların en fazla üçünü kilitleyebilirsiniz. Bir yedeği geri yüklemek mevcut yerel verilerin üzerine yazabilir. Ayrıca tüm sürümlerde Ayarlar &gt; Veri &gt; Verileri Dışa Aktar yolundan bağımsız bir JSON yedeği oluşturabilirsiniz.</p>
+            </details>
+            <details class="faq-item">
+                <summary>iCloud yedekleme hangi sürümlerde kullanılabilir?</summary>
+                <p>iCloud Yedekleri 1.1.0 sürümüyle eklenmiştir. 1.0.x sürümlerinde veriler yalnızca cihazda tutulur ve JSON dosyasıyla dışa/içe aktarılabilir. Uygulamayı kaldırmak veya otomatik yedeklemeyi kapatmak, mevcut iCloud yedeklerini kendiliğinden silmez.</p>
             </details>
         </div>
     </section>
@@ -301,7 +305,7 @@
             </div>
             <div class="feature-chip">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-                <span>Yerel Veri Saklama</span>
+                <span>Yerel &amp; Özel iCloud Saklama</span>
             </div>
             <div class="feature-chip">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -309,7 +313,7 @@
             </div>
             <div class="feature-chip">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
-                <span>Yedekleme & Geri Yükleme</span>
+                <span>iCloud &amp; JSON Yedekleme</span>
             </div>
         </div>
     </section>

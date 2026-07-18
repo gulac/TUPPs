@@ -20,16 +20,19 @@
 <body>
 
 <h1>Gizlilik Politikası</h1>
-<p class="date">Son güncelleme: 31 Mayıs 2026</p>
+<p class="date">Son güncelleme: 18 Temmuz 2026</p>
 
 <p>Bu Gizlilik Politikası, VOLO Finance mobil uygulamasının ("Uygulama") kişisel verilerinizi nasıl ele aldığını açıklamaktadır. Gizliliğiniz bizim için önemlidir ve Uygulama, tasarım itibarıyla mümkün olan en az veriyi toplama ilkesiyle geliştirilmiştir.</p>
 
 <div class="highlight">
-<p><strong>VOLO Finance herhangi bir kişisel veriyi toplamaz, sunucuya göndermez veya üçüncü taraflarla paylaşmaz.</strong></p>
+<p><strong>VOLO Finance hesap, reklam, izleme veya analiz altyapısı işletmez; portföy verilerinizi geliştiriciye ait sunucularda toplamaz ya da geliştiricinin erişimine sunmaz.</strong> Sürüm 1.1.0 ve sonrasında kullanıcı isteğine bağlı iCloud yedekleme kullanılırsa, aşağıda açıklanan uygulama verileri Apple CloudKit aracılığıyla kullanıcının özel iCloud veritabanına aktarılır.</p>
 </div>
 
-<h2>1. Toplanan Veriler</h2>
-<p>Uygulama, herhangi bir kişisel veri <strong>toplamamaktadır</strong>. Özellikle:</p>
+<h2>1. Sürüm Kapsamı</h2>
+<p>Bu politika tüm VOLO Finance sürümleri için geçerlidir. <strong>iCloud Yedekleri</strong> özelliği 1.1.0 sürümüyle eklenmiştir; bu politikadaki iCloud hükümleri yalnızca 1.1.0 veya sonraki bir sürüm yüklendiğinde ve kullanıcı bu özelliği kullandığında uygulanır. 1.0.x sürümlerinde iCloud yedekleme bulunmaz; veriler cihazda kalır veya kullanıcı tarafından manuel olarak JSON dosyasına aktarılır.</p>
+
+<h2>2. Geliştirici Tarafından Toplanmayan Veriler</h2>
+<p>Geliştirici, Uygulama üzerinden kişisel veri toplamamaktadır. Özellikle:</p>
 <ul>
   <li>Ad, e-posta adresi, telefon numarası gibi kimlik bilgileri istenmez ve toplanmaz.</li>
   <li>Konum bilgisi toplanmaz.</li>
@@ -38,37 +41,54 @@
   <li>Hesap oluşturma veya oturum açma işlemi bulunmaz.</li>
 </ul>
 
-<h2>2. Cihazda Saklanan Veriler</h2>
-<p>Aşağıdaki veriler yalnızca <strong>cihazınızda yerel olarak</strong> saklanır ve hiçbir koşulda cihaz dışına gönderilmez:</p>
+<h2>3. Cihazda Saklanan Veriler</h2>
+<p>Aşağıdaki veriler cihazınızda yerel olarak saklanır:</p>
 <ul>
-  <li>Portföy bilgileri (varlık adları, miktarlar, alış fiyatları, alış tarihleri)</li>
-  <li>Satış işlem kayıtları</li>
-  <li>Takip listesi tercihleri</li>
+  <li>Portföy, arşiv ve varlık bilgileri (manuel tanımlanan varlıklar dahil)</li>
+  <li>Alış ve satış işlem kayıtları ile kâr/zarar hesaplamaları</li>
+  <li>İzleme listesi ve portföy bildirim kuralları</li>
   <li>Uygulama ayarları (dil, sıralama tercihi vb.)</li>
 </ul>
-<p>Bu veriler, Uygulama kaldırıldığında veya cihaz sıfırlandığında kalıcı olarak silinir. Uygulama, verilerinizi JSON formatında dışa aktarmanıza olanak tanıyan bir yedekleme özelliği sunmaktadır. Dışa aktarılan dosyanın saklanması ve güvenliği tamamen sizin sorumluluğunuzdadır.</p>
+<p>Uygulamanın içindeki “Tüm Verileri Sil” seçeneği yerel uygulama verilerini siler. Uygulamanın kaldırılması veya cihazın sıfırlanması da yerel verileri silebilir; ancak daha önce oluşturulmuş iCloud yedekleri ayrıca silinmedikçe kullanıcının iCloud hesabında kalabilir.</p>
 
-<h2>3. Üçüncü Taraf Hizmetler</h2>
+<h2>4. İsteğe Bağlı iCloud Yedekleri — Sürüm 1.1.0 ve Sonrası</h2>
+<p>iCloud yedekleme ön tanımlı olarak kapalıdır. Kullanıcı “Şimdi Yedekle” seçeneğiyle manuel yedek oluşturabilir veya otomatik yedeklemeyi açabilir. Otomatik yedekleme açık olduğunda ve uygulama verileri değiştiğinde, Uygulama arka plana geçerken yedekleme denenir.</p>
+<p>Bir iCloud yedeği aşağıdaki bilgileri içerebilir:</p>
+<ul>
+  <li>Aktif ve arşivlenmiş portföyler, varlıklar, miktarlar, fiyatlar ve işlem geçmişi</li>
+  <li>Manuel varlıkların kullanıcı tarafından girilen adları ve fiyatları</li>
+  <li>İzleme listesi kayıtları</li>
+  <li>Portföy bildirim kuralları</li>
+  <li>Yedek tarihi, uygulama sürümü, kullanıcı tarafından yazılan yedek açıklaması ve kilit durumu</li>
+</ul>
+<p>Yedekler Apple’ın CloudKit hizmeti kullanılarak Uygulamanın iCloud kapsayıcısındaki <strong>kullanıcıya ait özel veritabanında</strong> saklanır. Özel veritabanı public değildir, başka kullanıcılarla paylaşılmaz ve geliştirici portalından görülemez. Veriler kullanıcının iCloud saklama kotasından yer kullanır ve Apple’ın iCloud güvenlik önlemlerine tabidir.</p>
+<p>Aynı takvim gününde oluşturulan manuel veya otomatik yedek aynı günlük kaydın üzerine yazılır. En fazla 5 yedek saklanır; en fazla 3 yedek kilitlenebilir ve kilitlenen yedekler otomatik temizleme sırasında silinmez. Kullanıcı, kilitli olanlar dahil, yedekleri Uygulama içinden açıkça silebilir. Uygulamanın kaldırılması iCloud yedeklerini otomatik olarak silmez.</p>
+<p>iCloud yedekleme için cihazda kullanılabilir bir iCloud hesabı, iCloud Drive, internet bağlantısı ve yeterli iCloud alanı gerekir. iCloud özelliğinin kapatılması mevcut yedekleri kendiliğinden silmez.</p>
+
+<h2>5. Manuel JSON Dışa Aktarma</h2>
+<p>Uygulama, verilerinizi JSON formatında dışa aktarmanıza ve daha sonra geri yüklemenize olanak tanır. Dışa aktarılan dosyanın nerede saklanacağını kullanıcı seçer; dosyanın saklanması, paylaşılması ve güvenliği kullanıcının sorumluluğundadır.</p>
+
+<h2>6. Piyasa Verisi Sağlayıcıları</h2>
 <p>Uygulama, güncel piyasa verilerini görüntülemek amacıyla üçüncü taraf API hizmetlerine bağlanır. Bu bağlantılar sırasında:</p>
 <ul>
-  <li>Yalnızca talep edilen varlık sembolü (örn. "TUPRS") API sağlayıcısına iletilir.</li>
+  <li>Talep edilen varlık sembolleri, arama metinleri ve gerekli piyasa tanımlayıcıları API sağlayıcısına iletilebilir.</li>
   <li>Kişisel bilgileriniz, portföy verileriniz veya işlem geçmişiniz üçüncü taraf hizmetlere gönderilmez.</li>
   <li>Üçüncü taraf API sağlayıcılarının kendi gizlilik politikaları geçerlidir; bu politikalar üzerinde geliştiricinin kontrolü bulunmamaktadır.</li>
 </ul>
 
-<h2>4. Çocukların Gizliliği</h2>
-<p>Uygulama, 13 yaşın altındaki çocuklara yönelik değildir. Bilerek çocuklardan kişisel veri toplamayız. Uygulama zaten herhangi bir kişisel veri toplamadığından bu risk mevcut değildir.</p>
+<h2>7. Çocukların Gizliliği</h2>
+<p>Uygulama, 13 yaşın altındaki çocuklara yönelik değildir. Bilerek çocuklardan kişisel veri toplamayız.</p>
 
-<h2>5. Veri Güvenliği</h2>
-<p>Tüm verileriniz cihazınızda yerel olarak tutulduğundan, veri güvenliği doğrudan cihazınızın güvenlik önlemlerine (ekran kilidi, şifreleme vb.) bağlıdır. Cihazınızın güvenliğini sağlamak sizin sorumluluğunuzdadır.</p>
+<h2>8. Veri Güvenliği</h2>
+<p>Yerel verilerin güvenliği cihazınızın ekran kilidi, şifreleme ve işletim sistemi güvenliğine bağlıdır. iCloud yedekleri Apple hesabı ve CloudKit’in hesap tabanlı erişim ve şifreleme önlemleriyle korunur. Hiçbir elektronik saklama veya aktarım yöntemi için mutlak güvenlik garanti edilemez.</p>
 
-<h2>6. Haklarınız</h2>
-<p>Uygulama herhangi bir kişisel veri toplamadığından, veri erişim, düzeltme veya silme talepleri söz konusu değildir. Cihazınızda saklanan yerel verileri istediğiniz zaman Uygulamayı kaldırarak silebilirsiniz.</p>
+<h2>9. Seçimleriniz ve Verilerin Silinmesi</h2>
+<p>iCloud yedekleme isteğe bağlıdır ve otomatik yedekleme her zaman kapatılabilir. Yerel veriler Uygulama içindeki silme seçeneğiyle; iCloud yedekleri ise Ayarlar &gt; Veri &gt; iCloud Yedekleri ekranından tek tek silinebilir. Verilerinizle ilgili sorularınız için aşağıdaki e-posta adresinden iletişime geçebilirsiniz.</p>
 
-<h2>7. Değişiklikler</h2>
+<h2>10. Değişiklikler</h2>
 <p>Bu Gizlilik Politikası zaman zaman güncellenebilir. Değişiklikler Uygulama içinden yayımlandığı anda yürürlüğe girer. Önemli değişiklikler yapılması halinde Uygulama içinden bildirim sağlanacaktır.</p>
 
-<h2>8. İletişim</h2>
+<h2>11. İletişim</h2>
 <p>Gizlilik ile ilgili sorularınız için aşağıdaki adres üzerinden iletişime geçebilirsiniz:</p>
 <p><strong>E-posta:</strong> volo.finance@outlook.com</p>
 

@@ -20,9 +20,11 @@
 <body>
 
 <h1>Kullanım Koşulları</h1>
-<p class="date">Son güncelleme: 31 Mayıs 2026</p>
+<p class="date">Son güncelleme: 18 Temmuz 2026</p>
 
 <p>Bu Kullanım Koşulları, VOLO Finance mobil uygulamasını ("Uygulama") kullanımınıza ilişkin hüküm ve koşulları belirler. Uygulamayı indirerek, yükleyerek veya kullanarak bu koşulları kabul etmiş sayılırsınız. Bu koşulları kabul etmiyorsanız lütfen Uygulamayı kullanmayınız.</p>
+
+<p><strong>Sürüm kapsamı:</strong> Bu koşullar Uygulamanın tüm sürümleri için geçerlidir. iCloud Yedekleri ile ilgili hükümler yalnızca bu özelliğin eklendiği 1.1.0 ve sonraki sürümlerde, özelliği kullandığınız ölçüde geçerlidir. 1.0.x sürümleri yalnızca cihaz içi saklama ve JSON dosyasıyla dışa/içe aktarma yöntemlerini kullanır.</p>
 
 <h2>1. Uygulamanın Amacı</h2>
 <p>VOLO Finance, yalnızca <strong>yatırım takibi</strong> amacıyla tasarlanmış bir araçtır. Uygulama, portföyünüzdeki varlıkların güncel değerlerini görüntülemenize, alış-satış işlemlerinizi kaydetmenize ve kâr/zarar durumunuzu izlemenize olanak tanır.</p>
@@ -40,15 +42,24 @@
   <li>Geliştirici, üçüncü taraf hizmetlerinin sürekliliğini, doğruluğunu veya güvenilirliğini garanti etmez.</li>
 </ul>
 
-<h2>3. Veri Saklama</h2>
-<p>Portföy bilgileriniz, işlem kayıtlarınız ve uygulama ayarlarınız yalnızca <strong>cihazınızda yerel olarak</strong> saklanır. Uygulama, bu verileri herhangi bir sunucuya göndermez veya bulut ortamında depolamaz. Cihazınızın kaybedilmesi, sıfırlanması veya Uygulamanın kaldırılması durumunda verileriniz kalıcı olarak silinir.</p>
-<p>Uygulama, verilerinizi JSON formatında dışa aktarmanıza olanak tanıyan bir yedekleme özelliği sunmaktadır. Veri kaybını önlemek için bu özelliği düzenli olarak kullanmanız önerilir. Verilerinizin yedeklenmesi tamamen sizin sorumluluğunuzdadır.</p>
+<h2>3. Veri Saklama ve Yedekleme</h2>
+<p>Portföyleriniz, varlık ve işlem kayıtlarınız, arşiviniz, izleme listeniz, portföy bildirim kurallarınız ve uygulama ayarlarınız öncelikle <strong>cihazınızda yerel olarak</strong> saklanır.</p>
+<p>1.1.0 ve sonraki sürümlerde isteğe bağlı iCloud Yedekleri özelliği sunulur:</p>
+<ul>
+  <li>Otomatik yedekleme varsayılan olarak kapalıdır. Manuel yedekleme yapabilir veya otomatik yedeklemeyi açabilirsiniz.</li>
+  <li>Yedekler Apple CloudKit aracılığıyla kişisel iCloud hesabınızın özel veritabanında tutulur ve iCloud saklama alanınızı kullanabilir.</li>
+  <li>Aynı gün içinde oluşturulan yeni yedek, o güne ait kilitli olmayan kaydın üzerine yazılır. En fazla beş günlük yedek tutulur; en fazla üç yedek kilitlenerek otomatik silinmeye karşı korunabilir.</li>
+  <li>Bir yedeği geri yüklemek mevcut yerel verilerin üzerine yazabilir. Geri yükleme işleminden önce Uygulama sizden onay ister.</li>
+  <li>Otomatik yedeklemeyi kapatmak veya Uygulamayı kaldırmak iCloud'daki mevcut yedekleri kendiliğinden silmez. Yedekleri Uygulama içindeki Ayarlar &gt; Veri &gt; iCloud Yedekleri ekranından silebilirsiniz.</li>
+</ul>
+<p>Tüm sürümlerde verilerinizi JSON dosyası olarak dışa aktarabilir ve daha sonra içe aktarabilirsiniz. Veri kaybı riskini azaltmak için güncel bir JSON yedeğini ayrıca saklamanız önerilir. Yedeklerinizin erişilebilirliğini ve güncelliğini kontrol etmek sizin sorumluluğunuzdadır.</p>
 
 <h2>4. Sorumluluk Sınırlaması</h2>
 <ul>
   <li>Uygulama <strong>"olduğu gibi"</strong> ve <strong>"mevcut haliyle"</strong> sunulmaktadır; açık veya zımni hiçbir garanti verilmemektedir.</li>
   <li>Geliştirici, Uygulamanın kullanımından veya kullanılamamasından kaynaklanan doğrudan, dolaylı, arızi, özel veya sonuç olarak ortaya çıkan herhangi bir zarardan sorumlu tutulamaz.</li>
   <li>Gösterilen verilere dayanılarak alınan yatırım kararlarından doğabilecek mali kayıplardan geliştirici sorumlu değildir.</li>
+  <li>Geliştirici; iCloud, CloudKit, internet bağlantısı veya cihaz koşullarından kaynaklanan yedekleme gecikmesi, başarısızlığı, geri yükleme sorunu ya da veri kaybı için kesintisiz çalışma veya veri kurtarma garantisi vermez.</li>
   <li>Uygulama, herhangi bir zamanda ve önceden bildirim yapılmaksızın güncellenebilir, değiştirilebilir veya hizmet dışı bırakılabilir.</li>
 </ul>
 

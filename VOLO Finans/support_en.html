@@ -260,7 +260,7 @@
             </details>
             <details class="faq-item">
                 <summary>Is my data safe?</summary>
-                <p>All your data is stored locally on your device. No account or sign-in is required. You can export your data securely using the backup feature.</p>
+                <p>Your data is primarily stored locally on your device, and no separate app account or sign-in is required. If you use the optional iCloud Backups feature in version 1.1.0 or later, backups are stored through Apple CloudKit in the private database of your personal iCloud account. Automatic backup is off by default, and the developer cannot access backups in that private database.</p>
             </details>
             <details class="faq-item">
                 <summary>What does Pro subscription offer?</summary>
@@ -276,7 +276,11 @@
             </details>
             <details class="faq-item">
                 <summary>How do I back up my data?</summary>
-                <p>Use the export feature in the app to save your data to a file and restore it later. This is the easiest way to transfer your data when switching devices.</p>
+                <p>In version 1.1.0 or later, go to Settings &gt; Data &gt; iCloud Backups and choose “Back Up Now,” or enable automatic backup. One record is created per day, backups from the latest five days are retained, and up to three may be locked. Restoring a backup may overwrite current local data. In every version, you can also create an independent JSON backup from Settings &gt; Data &gt; Export Data.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Which versions support iCloud backup?</summary>
+                <p>iCloud Backups were introduced in version 1.1.0. Versions 1.0.x store data on the device and support JSON file export/import only. Uninstalling the App or disabling automatic backup does not automatically delete existing iCloud backups.</p>
             </details>
         </div>
     </section>
@@ -301,7 +305,7 @@
             </div>
             <div class="feature-chip">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-                <span>Local Data Storage</span>
+                <span>Local &amp; Private iCloud Storage</span>
             </div>
             <div class="feature-chip">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -309,7 +313,7 @@
             </div>
             <div class="feature-chip">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
-                <span>Backup & Restore</span>
+                <span>iCloud &amp; JSON Backup</span>
             </div>
         </div>
     </section>
