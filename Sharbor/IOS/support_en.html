@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="https://gulac.github.io/TUPPs/Sharbor/IOS/support_en.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gulac.github.io/TUPPs/Sharbor/IOS/support_en.html">
+<meta property="og:title" content="Sharbor Support">
+<meta property="og:description" content="Answers to common questions, troubleshooting steps, and how to get in touch.">
+<title>Sharbor — Support</title>
+<style>
+  :root {
+    --peach: #E8875F;
+    --peach-deep: #C2612F;
+    --peach-light: #FBE9E3;
+    --ink: #26201C;
+    --ink-soft: #5B534D;
+    --line: #ECE2DB;
+    --bg: #FFFDFB;
+    --card: #FFFFFF;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+  header.hero {
+    background: linear-gradient(180deg, var(--peach-light) 0%, var(--bg) 100%);
+    border-bottom: 1px solid var(--line);
+    padding: 56px 24px 40px;
+  }
+  .hero-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .app-icon {
+    width: 84px;
+    height: 84px;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(45, 30, 20, 0.18);
+    flex-shrink: 0;
+  }
+  .hero-text h1 {
+    margin: 0 0 6px;
+    font-size: 28px;
+    letter-spacing: -0.02em;
+  }
+  .hero-text p {
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 15px;
+  }
+  .meta-badges {
+    margin-top: 18px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .badge {
+    display: inline-block;
+    font-size: 12.5px;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 999px;
+    background: #fff;
+    border: 1px solid var(--line);
+    color: var(--ink-soft);
+  }
+  .top-contact {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--peach-deep);
+    border-radius: 16px;
+    padding: 22px 24px;
+    margin: 32px 0 0;
+  }
+  .top-contact h2 { font-size: 17px; margin: 0 0 6px; display: block; }
+  .top-contact p { margin: 0 0 10px; font-size: 14.5px; color: var(--ink-soft); }
+  .top-contact a.mail {
+    color: var(--peach-deep);
+    font-weight: 650;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .top-contact a.mail:hover { text-decoration: underline; }
+  nav.toc {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 20px 24px;
+    margin: 20px 0 8px;
+  }
+  nav.toc h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-soft);
+    margin: 0 0 12px;
+    display: block;
+  }
+  nav.toc ul {
+    columns: 2;
+    -webkit-columns: 2;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14.5px;
+  }
+  nav.toc li { margin-bottom: 8px; break-inside: avoid; }
+  nav.toc a { color: var(--ink); text-decoration: none; }
+  nav.toc a:hover { color: var(--peach-deep); text-decoration: underline; }
+  section {
+    padding: 34px 0;
+    border-bottom: 1px solid var(--line);
+    scroll-margin-top: 20px;
+  }
+  section:last-of-type { border-bottom: none; }
+  h2 {
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    margin: 0 0 14px;
+  }
+  h3 { font-size: 16px; margin: 20px 0 8px; }
+  p { margin: 0 0 14px; color: var(--ink); }
+  ul, ol { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 8px; }
+  strong { font-weight: 650; }
+  .key { color: var(--peach-deep); font-weight: 650; }
+  .lead { color: var(--ink-soft); font-size: 15px; margin-bottom: 18px; }
+  details {
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--card);
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  details[open] { border-color: #E3CCBF; }
+  summary {
+    cursor: pointer;
+    padding: 14px 18px;
+    font-weight: 600;
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::after {
+    content: "+";
+    color: var(--peach-deep);
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  details[open] summary::after { content: "\2212"; }
+  summary:hover { color: var(--peach-deep); }
+  .answer {
+    padding: 0 18px 16px;
+    font-size: 14.5px;
+    color: var(--ink-soft);
+  }
+  .answer p { color: var(--ink-soft); margin-bottom: 10px; }
+  .answer p:last-child, .answer ul:last-child, .answer ol:last-child { margin-bottom: 0; }
+  .path {
+    display: inline-block;
+    background: #FAF2ED;
+    border: 1px solid #EEDCD1;
+    border-radius: 6px;
+    padding: 1px 7px;
+    font-size: 13.5px;
+    color: var(--peach-deep);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  code {
+    background: #FAF2ED;
+    border-radius: 5px;
+    padding: 1px 6px;
+    font-size: 13.5px;
+    color: var(--peach-deep);
+  }
+  .callout {
+    background: var(--peach-light);
+    border: 1px solid #F1D3C4;
+    border-radius: 14px;
+    padding: 16px 18px;
+    font-size: 14.5px;
+    margin: 16px 0;
+  }
+  .callout.strongbox { border-left: 4px solid var(--peach-deep); }
+  .callout p:last-child { margin-bottom: 0; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 18px;
+    font-size: 14.5px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border: 1px solid var(--line);
+    vertical-align: top;
+  }
+  th {
+    background: #FAF6F3;
+    font-weight: 650;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--ink-soft);
+  }
+  a.inline { color: var(--peach-deep); font-weight: 600; text-decoration: none; }
+  a.inline:hover { text-decoration: underline; }
+  .contact-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 24px;
+    margin-top: 8px;
+  }
+  .contact-card a { color: var(--peach-deep); font-weight: 650; text-decoration: none; font-size: 16px; }
+  footer {
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 13px;
+    padding: 40px 24px 20px;
+  }
+  footer a { color: var(--ink-soft); }
+  .back-to-top {
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 13.5px;
+    color: var(--ink-soft);
+    text-decoration: none;
+  }
+  .back-to-top:hover { color: var(--peach-deep); }
+  @media (max-width: 560px) {
+    nav.toc ul { columns: 1; }
+    .hero-text h1 { font-size: 24px; }
+    header.hero { padding: 40px 20px 32px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <img class="app-icon" alt="Sharbor app icon" src="data:image/png;base64,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">
+    <div class="hero-text">
+      <h1>Sharbor Support</h1>
+      <p>Answers to common questions, troubleshooting steps, and how to get in touch.</p>
+    </div>
+  </div>
+  <div class="hero-inner meta-badges" style="margin-top:18px;">
+    <span class="badge">Sharbor for iOS</span>
+    <span class="badge">Requires iOS 17.6 or later</span>
+    <span class="badge">Published by GLC Studios</span>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="top-contact">
+    <h2>Need a hand?</h2>
+    <p>Every message is read by a human. Replies usually arrive within 2–3 business days.</p>
+    <a class="mail" href="mailto:sharbor@glcstudios.com">sharbor@glcstudios.com</a>
+  </div>
+
+  <nav class="toc" aria-label="Table of contents">
+    <h2>Jump to</h2>
+    <ul>
+      <li><a href="#getting-started">Getting started</a></li>
+      <li><a href="#students-lessons">Students &amp; lessons</a></li>
+      <li><a href="#payments">Payments</a></li>
+      <li><a href="#packages">Lesson packages</a></li>
+      <li><a href="#backup">Backup, restore &amp; moving device</a></li>
+      <li><a href="#premium">Premium &amp; subscriptions</a></li>
+      <li><a href="#notifications">Reminders &amp; notifications</a></li>
+      <li><a href="#calendar-whatsapp">Calendar &amp; WhatsApp</a></li>
+      <li><a href="#widgets">Widgets</a></li>
+      <li><a href="#privacy-data">Privacy &amp; deleting data</a></li>
+      <li><a href="#troubleshooting">Troubleshooting</a></li>
+      <li><a href="#contact">Contact support</a></li>
+    </ul>
+  </nav>
+
+  <section id="getting-started">
+    <h2>Getting started</h2>
+    <p class="lead">The basics of setting Sharbor up for the way you work.</p>
+
+    <details>
+      <summary>Do I need an account to use Sharbor?</summary>
+      <div class="answer">
+        <p>No. There is no sign-up, no login, and no password. Sharbor works immediately after
+        installation, and everything you enter stays on your device.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Does Sharbor work offline?</summary>
+      <div class="answer">
+        <p>Yes. All core features — students, lessons, payments, notes, and statistics — work fully
+        offline. An internet connection is only needed for optional iCloud backup, Apple Calendar
+        sync, and purchasing or restoring a Premium subscription.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>How do I add the subjects I teach and set my fees?</summary>
+      <div class="answer">
+        <p>Open <span class="path">Settings → Subjects Taught</span> to create the subjects you
+        teach and give each one an icon. You can then set a per-subject fee for each student
+        individually when you add or edit them, so the same subject can have a different price for
+        different students.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Can I change "Student" to something else?</summary>
+      <div class="answer">
+        <p>Yes. Open <span class="path">Settings → People Display</span> and switch between
+        <strong>Student</strong> and <strong>Customer</strong>. The wording updates throughout the
+        app, which is useful for coaches, therapists, trainers, and other independent professionals.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Which languages does Sharbor support?</summary>
+      <div class="answer">
+        <p>Sharbor follows your device language where supported, and you can override it in
+        <span class="path">Settings → Language</span>. Choosing <strong>System Default</strong>
+        returns to your device setting.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Can I change the app's colour and icon?</summary>
+      <div class="answer">
+        <p>Yes. <span class="path">Settings → Theme Color</span> offers several colour themes, and
+        the app icon on your Home Screen changes automatically to match the theme you pick.
+        <span class="path">Settings → Theme</span> switches between light, dark, and system
+        appearance.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Can I reorder the cards on the Home screen?</summary>
+      <div class="answer">
+        <p>Yes. Go to <span class="path">Settings → Home Card Order</span> and drag the sections
+        into the order you prefer. <strong>Reset to Default Order</strong> restores the original
+        layout.</p>
+      </div>
+    </details>
+  </section>
+
+  <section id="students-lessons">
+    <h2>Students &amp; lessons</h2>
+    <p class="lead">Adding people, scheduling lessons, and recording attendance.</p>
+
+    <details>
+      <summary>Can I import a student from my Contacts?</summary>
+      <div class="answer">
+        <p>Yes. When adding a student, tap the option to choose from Contacts. iOS shows its own
+        contact picker and Sharbor receives only the single contact you select — it cannot read or
+        scan the rest of your address book.</p>
+        <p>Phone numbers taken from Contacts are stored exactly as you saved them, without
+        reformatting.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>How do I schedule a repeating lesson?</summary>
+      <div class="answer">
+        <p>When creating a lesson, choose a recurrence: weekly, every two weeks, monthly, or every
+        N days. Sharbor creates the whole series at once.</p>
+        <p>When editing or deleting a lesson that belongs to a series, you'll be asked whether the
+        change should apply to <strong>only this lesson</strong>, <strong>this and future
+        lessons</strong>, or the <strong>entire series</strong>.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Can I teach more than one student in the same lesson?</summary>
+      <div class="answer">
+        <p>Yes. A lesson can hold several participants, and each participant keeps their own fee,
+        attendance status, and package link within that single lesson. That means one student can be
+        marked as attended while another is marked absent, and each is charged accordingly.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Sharbor warned me about a scheduling conflict. What does that mean?</summary>
+      <div class="answer">
+        <p>It means the time you chose overlaps an existing lesson that isn't cancelled or marked as
+        a no-show. It's a warning, not a block — you can still save the lesson if the overlap is
+        intentional.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>How do cancellation charges work?</summary>
+      <div class="answer">
+        <p>Each lesson can have its own cancellation rule:</p>
+        <ul>
+          <li><strong>Free</strong> — no charge when cancelled.</li>
+          <li><strong>Full fee</strong> — the normal lesson fee still applies.</li>
+          <li><strong>Free until deadline</strong> — free if cancelled before a set number of hours
+          ahead of the lesson, otherwise the full fee applies.</li>
+          <li><strong>Custom fee</strong> — a specific amount you define, capped at the normal fee.</li>
+        </ul>
+      </div>
+    </details>
+  </section>
+
+  <section id="payments">
+    <h2>Payments</h2>
+    <p class="lead">Sharbor tracks what you're owed. It does not move money.</p>
+
+    <div class="callout strongbox">
+      <p><span class="key">Sharbor is a record-keeping tool, not a payment processor.</span>
+      Payment entries describe transactions that happen between you and your student in the real
+      world. No money passes through the app, and no bank or card details are ever requested.</p>
+    </div>
+
+    <details>
+      <summary>When is a payment marked as overdue?</summary>
+      <div class="answer">
+        <p>That depends on the policy you choose in <span class="path">Settings → Overdue Policy</span>:</p>
+        <ul>
+          <li><strong>After the lesson</strong> — an unpaid lesson counts as overdue once it has taken place.</li>
+          <li><strong>End of month</strong> — unpaid lessons count as overdue after the end of the month they fall in.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>Can I record a partial payment?</summary>
+      <div class="answer">
+        <p>Yes. When collecting, enter the amount actually received. Sharbor allocates it across the
+        lessons you selected and keeps the remainder as an open balance, so the outstanding total
+        stays accurate.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Can I take one lump payment covering several lessons?</summary>
+      <div class="answer">
+        <p>Yes. Select the lessons being paid for and enter the total. If the amount is larger than
+        the selected lessons' outstanding balance, record it without selecting lessons so it is
+        stored as a bulk payment against that student.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>I deleted a payment by mistake — can I get it back?</summary>
+      <div class="answer">
+        <p>Yes. Sharbor keeps an activity history, and most data changes can be reversed from it.
+        Look for the relevant entry and choose to restore the state from before that change.</p>
+        <p>If a collected amount is deleted while other records for the same lesson still exist,
+        Sharbor automatically returns that amount to the open balance so the lesson isn't wrongly
+        shown as fully paid.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>How do I change the currency?</summary>
+      <div class="answer">
+        <p>Open <span class="path">Settings → Currency</span>. This changes how amounts are
+        displayed and rounded; it does not convert existing figures at an exchange rate.</p>
+      </div>
+    </details>
+  </section>
+
+  <section id="packages">
+    <h2>Lesson packages</h2>
+    <p class="lead">Prepaid bundles of lessons, with usage tracked automatically.</p>
+
+    <details>
+      <summary>How is package usage calculated?</summary>
+      <div class="answer">
+        <p>Usage is derived from the lessons themselves rather than a separate counter. A credit is
+        consumed when a linked lesson is marked as completed, or when a cancellation or no-show
+        carries a charge under the lesson's cancellation rule. Scheduled lessons are shown separately
+        as reserved credits.</p>
+        <p>Because the count is derived, deleting or restoring a lesson can never leave the package
+        balance out of sync.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Why don't package lessons appear as amounts owed?</summary>
+      <div class="answer">
+        <p>A lesson covered by a package has already been paid for through the package itself, so it
+        carries no separate per-lesson charge. Record the package payment once, when the package is
+        sold. Lessons beyond the package's credit limit are charged normally again.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Will Sharbor remind me to renew a package?</summary>
+      <div class="answer">
+        <p>Yes. Set a renewal threshold on the package, and when remaining credits reach it — or the
+        package is close to expiring — a renewal suggestion appears on the Home screen, which you can
+        turn into a reminder.</p>
+      </div>
+    </details>
+  </section>
+
+  <section id="backup">
+    <h2>Backup, restore &amp; moving to a new device</h2>
+    <p class="lead">Because your data lives on your device, backups matter.</p>
+
+    <div class="callout strongbox">
+      <p><span class="key">Export your data regularly.</span> Records exist only on your device
+      unless you back them up. If the device is lost, reset, or replaced without a backup, the data
+      cannot be recovered by anyone — including GLC Studios, which has no copy of it.</p>
+    </div>
+
+    <details>
+      <summary>How do I move everything to a new iPhone or iPad?</summary>
+      <div class="answer">
+        <p>Two options:</p>
+        <ol>
+          <li><strong>Via iCloud backup (Premium):</strong> create a backup in
+          <span class="path">Settings → iCloud Backups</span> on the old device, install Sharbor on
+          the new one while signed in to the same Apple Account, then open the same screen and
+          restore the most recent backup.</li>
+          <li><strong>Via file export (works on any plan):</strong> use
+          <span class="path">Settings → Export Database</span> to save a <code>.cercrmdb</code> file
+          — to Files, AirDrop, or anywhere you like — then use
+          <span class="path">Settings → Import Database</span> on the new device.</li>
+        </ol>
+        <p>A standard full iOS device transfer also carries Sharbor's data across.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Can GLC Studios recover my data if I lose my device?</summary>
+      <div class="answer">
+        <p>No, and this is by design. Sharbor has no servers and no copy of your records. iCloud
+        backups are stored in your own private iCloud account, which only you can access through
+        your Apple Account. Keeping your own exports is the only safeguard.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>What is the .cercrmdb file?</summary>
+      <div class="answer">
+        <p>It's Sharbor's complete backup format — students, lessons, payments, notes, photos,
+        message templates, your profile, and app settings in a single file. It can be stored
+        anywhere you like and imported back into Sharbor later.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>How many iCloud backups are kept?</summary>
+      <div class="answer">
+        <p>Sharbor keeps a limited number of recent backups and removes older ones automatically. To
+        protect a specific backup from being cleaned up, lock it in
+        <span class="path">Settings → iCloud Backups</span>. Up to three backups can be locked, and
+        a locked backup cannot be deleted until you unlock it.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Sharbor said it recovered from a damaged data file. What happened?</summary>
+      <div class="answer">
+        <p>Sharbor keeps a last-known-good copy of your data. If the main file cannot be read — for
+        example after an unexpected shutdown — the damaged file is set aside untouched and the last
+        healthy copy is restored automatically, rather than overwriting anything.</p>
+        <p>If you see this message, it's worth exporting a fresh backup straight away and checking
+        that recent entries are present.</p>
+      </div>
+    </details>
+  </section>
+
+  <section id="premium">
+    <h2>Premium &amp; subscriptions</h2>
+    <p class="lead">What's included, and how billing works.</p>
+
+    <details>
+      <summary>What do I get with Premium?</summary>
+      <div class="answer">
+        <table>
+          <tr><th>Feature</th><th>Free</th><th>Premium</th></tr>
+          <tr><td>Active students</td><td>Up to 5</td><td>Unlimited</td></tr>
+          <tr><td>Notes per student</td><td>Up to 3</td><td>Unlimited</td></tr>
+          <tr><td>General work notes</td><td>Up to 5</td><td>Unlimited</td></tr>
+          <tr><td>Message templates</td><td>Up to 3</td><td>Unlimited</td></tr>
+          <tr><td>Statistics history</td><td>Current month</td><td>Full history &amp; yearly view</td></tr>
+          <tr><td>Automatic iCloud backup</td><td>—</td><td>Included</td></tr>
+          <tr><td>Apple Calendar sync</td><td>—</td><td>Included</td></tr>
+        </table>
+      </div>
+    </details>
+
+    <details>
+      <summary>How do I cancel my subscription?</summary>
+      <div class="answer">
+        <p>Subscriptions are managed by Apple, not inside Sharbor. On your device open
+        <span class="path">Settings app → your name → Subscriptions</span>, select Sharbor, and turn
+        off auto-renewal. Premium remains active until the end of the period you've already paid for.</p>
+        <p>Cancelling never deletes your data — you keep all your records, but Premium-only features
+        become unavailable.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>How do I get a refund?</summary>
+      <div class="answer">
+        <p>All purchases are processed by Apple, so refunds are requested from Apple at
+        <a class="inline" href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>.
+        GLC Studios cannot issue, approve, or decline refunds and has no visibility into
+        transactions.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>I already paid, but Premium isn't active.</summary>
+      <div class="answer">
+        <p>Try these in order:</p>
+        <ol>
+          <li>Check your internet connection.</li>
+          <li>Open the Premium screen in Sharbor and tap <strong>Restore Purchases</strong>.</li>
+          <li>Confirm that the device is signed in with the same Apple Account used to purchase.</li>
+          <li>Fully close and reopen Sharbor.</li>
+        </ol>
+        <p>If it still doesn't activate, email support with your device model and iOS version.
+        Please don't send purchase receipts or payment details — they aren't needed and cannot be
+        verified on this end.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>I bought Premium on one device. Does it work on my other devices?</summary>
+      <div class="answer">
+        <p>Yes, as long as they're signed in with the same Apple Account. Install Sharbor and tap
+        <strong>Restore Purchases</strong> on the Premium screen. Note that your data does not
+        transfer automatically — use a backup or export for that, as described above.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Prices aren't loading on the Premium screen.</summary>
+      <div class="answer">
+        <p>This is almost always a temporary connection issue between the device and the App Store.
+        Check your connection, then close and reopen the app. If the problem persists for more than a
+        day, please get in touch.</p>
+      </div>
+    </details>
+  </section>
+
+  <section id="notifications">
+    <h2>Reminders &amp; notifications</h2>
+    <p class="lead">All reminders are scheduled locally on your device.</p>
+
+    <details>
+      <summary>How do I turn on lesson reminders?</summary>
+      <div class="answer">
+        <p>Open <span class="path">Settings → Lesson Reminder</span> and choose how far ahead you'd
+        like to be notified. iOS will ask for notification permission the first time.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>I'm not receiving notifications.</summary>
+      <div class="answer">
+        <ol>
+          <li>Check that notifications are allowed in the iOS
+          <span class="path">Settings app → Sharbor → Notifications</span>.</li>
+          <li>Make sure Focus modes or Do Not Disturb aren't silencing them.</li>
+          <li>Confirm a reminder time is selected in <span class="path">Settings → Lesson Reminder</span>.</li>
+          <li>Remember that reminders are only scheduled for lessons still marked as
+          <strong>scheduled</strong>, and only for times in the future.</li>
+        </ol>
+      </div>
+    </details>
+
+    <details>
+      <summary>Why don't all of my future lessons have reminders?</summary>
+      <div class="answer">
+        <p>iOS limits how many pending notifications an app may schedule at once. Sharbor prioritises
+        your nearest upcoming lessons and refreshes this rolling window every time the app is opened,
+        so more distant lessons receive their reminders as they approach. Opening the app
+        occasionally keeps the schedule topped up.</p>
+      </div>
+    </details>
+  </section>
+
+  <section id="calendar-whatsapp">
+    <h2>Calendar &amp; WhatsApp</h2>
+    <p class="lead">Optional integrations, always triggered by you.</p>
+
+    <details>
+      <summary>How does Apple Calendar sync work?</summary>
+      <div class="answer">
+        <p>With Premium, you can sync selected lessons to your Apple Calendar. Sharbor remembers each
+        event it created, so syncing again updates the existing entry instead of creating duplicates.
+        Deleting a synced lesson in Sharbor also removes the matching calendar event, provided
+        calendar access is still granted.</p>
+        <p>Calendar access can be changed at any time in the iOS
+        <span class="path">Settings app → Sharbor</span>.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Does Sharbor send WhatsApp messages automatically?</summary>
+      <div class="answer">
+        <p>No. Nothing is ever sent on your behalf. When you tap a reminder action, Sharbor opens
+        WhatsApp with the message text prepared — you review it and decide whether to send it.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>WhatsApp opens without the contact selected.</summary>
+      <div class="answer">
+        <p>This happens when the stored number has no clear international dialling code. WhatsApp
+        can't match it to a contact, so it opens its own contact picker with your message ready.</p>
+        <p>To fix it, edit the student and enter the number with its country code. Sharbor
+        deliberately does not guess a country for numbers saved without one, since guessing wrong
+        could send a message to a stranger.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Can I customise the reminder message text?</summary>
+      <div class="answer">
+        <p>Yes. Open <span class="path">Settings → Message Templates</span> to edit the wording. The
+        free plan includes up to three templates; Premium removes the limit. Default templates can be
+        restored at any time.</p>
+      </div>
+    </details>
+  </section>
+
+  <section id="widgets">
+    <h2>Widgets</h2>
+
+    <details>
+      <summary>What widgets are available?</summary>
+      <div class="answer">
+        <p>Sharbor offers Home Screen widgets for your monthly payment summary, your next lesson, and
+        your upcoming lessons, in small and medium sizes.</p>
+        <p>To add one, touch and hold an empty area of your Home Screen, tap the <strong>+</strong>
+        button, search for Sharbor, and choose a widget.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>My widget shows old information.</summary>
+      <div class="answer">
+        <p>iOS decides how often widgets refresh, so a short delay is normal. Opening Sharbor updates
+        the widget's data straight away. If a widget stays stale, remove it and add it again.</p>
+      </div>
+    </details>
+  </section>
+
+  <section id="privacy-data">
+    <h2>Privacy &amp; deleting data</h2>
+
+    <details>
+      <summary>What data does Sharbor collect about me?</summary>
+      <div class="answer">
+        <p>None. Sharbor has no servers, no analytics, no tracking, and no advertising. Everything
+        you enter stays on your device. Full details are in the
+        <a class="inline" href="https://gulac.github.io/TUPPs/Sharbor/IOS/privacy_policy_en.html">Privacy Policy</a>.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>How do I permanently delete everything?</summary>
+      <div class="answer">
+        <p>Open <span class="path">Settings → Delete All Data</span> and confirm.
+        <strong>This cannot be undone</strong> and no restore point is kept.</p>
+        <p>Note that iCloud backups already created are intentionally out of scope — remove those
+        separately in <span class="path">Settings → iCloud Backups</span> before deleting, or through
+        iCloud storage management in the iOS Settings app.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Does deleting the app delete my iCloud backups?</summary>
+      <div class="answer">
+        <p>No. Backups already stored in your iCloud account remain there. Delete them from within
+        Sharbor first, or manage them through the iOS Settings app afterwards.</p>
+      </div>
+    </details>
+  </section>
+
+  <section id="troubleshooting">
+    <h2>Troubleshooting</h2>
+    <p class="lead">Quick fixes for the most common issues.</p>
+
+    <table>
+      <tr><th>Problem</th><th>What to try</th></tr>
+      <tr>
+        <td>App won't open or closes immediately</td>
+        <td>Restart the device, then check for a Sharbor update in the App Store. If it continues, get in touch before reinstalling — reinstalling deletes local data.</td>
+      </tr>
+      <tr>
+        <td>Data looks missing after an update</td>
+        <td>Don't delete the app. Check <span class="path">Settings → iCloud Backups</span> for a recent backup, and contact support first.</td>
+      </tr>
+      <tr>
+        <td>iCloud backup fails</td>
+        <td>Confirm iCloud Drive is on and signed in, that iCloud storage isn't full, and that the device is online. Premium is required for automatic backups.</td>
+      </tr>
+      <tr>
+        <td>Import says the file is invalid</td>
+        <td>Only <code>.cercrmdb</code> files exported from Sharbor can be imported. Check the file wasn't renamed or altered.</td>
+      </tr>
+      <tr>
+        <td>Totals look wrong</td>
+        <td>Check the student's per-subject fee, any custom fee on the lesson, the lesson's attendance status and cancellation rule, and whether the lesson is linked to a package.</td>
+      </tr>
+      <tr>
+        <td>Calendar events duplicated</td>
+        <td>Remove the duplicates in Apple Calendar and sync again. Sharbor tracks the events it creates and updates rather than duplicates them.</td>
+      </tr>
+    </table>
+
+    <div class="callout">
+      <p><strong>Before reinstalling Sharbor for any reason, export your data first.</strong>
+      Deleting the app removes its local records, and without an export or iCloud backup they cannot
+      be recovered.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact support</h2>
+    <p>
+      If none of the above helps, get in touch. Every message is read by a human, and replies
+      usually arrive within 2–3 business days.
+    </p>
+    <p>To help resolve things on the first reply, please include:</p>
+    <ul>
+      <li>Your <strong>device model</strong> (for example, iPhone 15 Pro);</li>
+      <li>Your <strong>iOS version</strong> — iOS <span class="path">Settings app → General → About → Software Version</span>;</li>
+      <li>Your <strong>Sharbor version</strong> — shown at the bottom of the app's Settings screen;</li>
+      <li>A short description of what happened and what you expected instead;</li>
+      <li>A screenshot, if it's something visible.</li>
+    </ul>
+    <div class="callout strongbox">
+      <p>
+        <span class="key">Please don't send student data, payment details, or backup files.</span>
+        They're never needed for support, and Sharbor is built specifically so that this information
+        never has to leave your device.
+      </p>
+    </div>
+    <div class="contact-card">
+      <p style="margin-bottom:4px;"><strong>GLC Studios</strong> — Sharbor Support</p>
+      <a href="mailto:sharbor@glcstudios.com">sharbor@glcstudios.com</a>
+    </div>
+    <a class="back-to-top" href="#top">↑ Back to top</a>
+  </section>
+
+</div>
+
+<footer>
+  <a href="https://gulac.github.io/TUPPs/Sharbor/IOS/privacy_policy_en.html">Privacy Policy</a> &nbsp;·&nbsp;
+  <a href="https://gulac.github.io/TUPPs/Sharbor/IOS/terms_of_use_en.html">Terms of Use</a><br><br>
+  © 2026 GLC Studios. All rights reserved. Sharbor is a trademark of GLC Studios.
+</footer>
+
+</body>
+</html>
