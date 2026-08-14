@@ -271,7 +271,7 @@
   <div class="hero-inner meta-badges" style="margin-top:18px;">
     <span class="badge">Sharbor for iOS</span>
     <span class="badge">Requires iOS 17.6 or later</span>
-    <span class="badge">Published by GLC Studios</span>
+    <span class="badge">Published independently under the GLC Studios brand</span>
   </div>
 </header>
 
@@ -279,7 +279,7 @@
 
   <div class="top-contact">
     <h2>Need a hand?</h2>
-    <p>Every message is read by a human. Replies usually arrive within 2–3 business days.</p>
+    <p>Every message is read by a human. We aim to reply within 2–3 business days.</p>
     <a class="mail" href="mailto:sharbor@glcstudios.com">sharbor@glcstudios.com</a>
   </div>
 
@@ -308,8 +308,9 @@
     <details>
       <summary>Do I need an account to use Sharbor?</summary>
       <div class="answer">
-        <p>No. There is no sign-up, no login, and no password. Sharbor works immediately after
-        installation, and everything you enter stays on your device.</p>
+        <p>No. There is no Sharbor sign-up, login, or password. Sharbor works immediately after
+        installation, and its core records stay on your device unless you choose an optional feature
+        such as iCloud backup, Calendar sync, WhatsApp, or file export.</p>
       </div>
     </details>
 
@@ -317,8 +318,9 @@
       <summary>Does Sharbor work offline?</summary>
       <div class="answer">
         <p>Yes. All core features — students, lessons, payments, notes, and statistics — work fully
-        offline. An internet connection is only needed for optional iCloud backup, Apple Calendar
-        sync, and purchasing or restoring a Premium subscription.</p>
+        offline. An internet connection is needed for optional iCloud backup and purchasing or
+        restoring Premium. Calendar access itself is local; the calendar provider may separately
+        use the internet to sync events across your devices.</p>
       </div>
     </details>
 
@@ -337,7 +339,11 @@
       <div class="answer">
         <p>Yes. Open <span class="path">Settings → People Display</span> and switch between
         <strong>Student</strong> and <strong>Customer</strong>. The wording updates throughout the
-        app, which is useful for coaches, therapists, trainers, and other independent professionals.</p>
+        app, which is useful for coaches, trainers, dietitians, consultants, and other independent
+        service professionals.</p>
+        <p>Sharbor is an organisational tool, not a medical record, diagnosis, clinical decision, or
+        regulated health-information system. Professionals remain responsible for deciding what
+        information they may lawfully record.</p>
       </div>
     </details>
 
@@ -530,7 +536,7 @@
     <div class="callout strongbox">
       <p><span class="key">Export your data regularly.</span> Records exist only on your device
       unless you back them up. If the device is lost, reset, or replaced without a backup, the data
-      cannot be recovered by anyone — including GLC Studios, which has no copy of it.</p>
+      cannot be recovered by anyone — including the Developer, who has no copy of it.</p>
     </div>
 
     <details>
@@ -543,7 +549,7 @@
           the new one while signed in to the same Apple Account, then open the same screen and
           restore the most recent backup.</li>
           <li><strong>Via file export (works on any plan):</strong> use
-          <span class="path">Settings → Export Database</span> to save a <code>.cercrmdb</code> file
+          <span class="path">Settings → Export Database</span> to save a <code>.sharbordb</code> file
           — to Files, AirDrop, or anywhere you like — then use
           <span class="path">Settings → Import Database</span> on the new device.</li>
         </ol>
@@ -552,20 +558,23 @@
     </details>
 
     <details>
-      <summary>Can GLC Studios recover my data if I lose my device?</summary>
+      <summary>Can the Developer recover my data if I lose my device?</summary>
       <div class="answer">
-        <p>No, and this is by design. Sharbor has no servers and no copy of your records. iCloud
-        backups are stored in your own private iCloud account, which only you can access through
-        your Apple Account. Keeping your own exports is the only safeguard.</p>
+        <p>No, and this is by design. Sharbor has no Developer-operated record server and the
+        Developer has no copy of your records. iCloud
+        backups are stored under your Apple Account and are not accessible to the Developer. Keep
+        regular exports as an additional safeguard alongside optional iCloud backups.</p>
       </div>
     </details>
 
     <details>
-      <summary>What is the .cercrmdb file?</summary>
+      <summary>What is the .sharbordb file?</summary>
       <div class="answer">
         <p>It's Sharbor's complete backup format — students, lessons, payments, notes, photos,
         message templates, your profile, and app settings in a single file. It can be stored
-        anywhere you like and imported back into Sharbor later.</p>
+        anywhere you like and imported back into Sharbor later. The export is not separately
+        encrypted or password-protected by Sharbor and may contain personal information and photos;
+        store and share it securely.</p>
       </div>
     </details>
 
@@ -627,8 +636,9 @@
       <div class="answer">
         <p>All purchases are processed by Apple, so refunds are requested from Apple at
         <a class="inline" href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>.
-        GLC Studios cannot issue, approve, or decline refunds and has no visibility into
-        transactions.</p>
+        The Developer cannot directly issue an App Store refund and does not receive your card or
+        billing credentials. Sharbor may receive limited StoreKit transaction and entitlement
+        information needed to verify Premium access.</p>
       </div>
     </details>
 
@@ -777,8 +787,10 @@
     <details>
       <summary>What data does Sharbor collect about me?</summary>
       <div class="answer">
-        <p>None. Sharbor has no servers, no analytics, no tracking, and no advertising. Everything
-        you enter stays on your device. Full details are in the
+        <p>Sharbor does not send your app records to a Developer-operated server and does not include
+        advertising or third-party behavioural analytics. Optional iCloud backup, Calendar,
+        WhatsApp, App Store purchases, file exports, support email, and this GitHub Pages-hosted site
+        may involve Apple or other providers. Full details are in the
         <a class="inline" href="https://gulac.github.io/TUPPs/Sharbor/IOS/privacy_policy_en.html">Privacy Policy</a>.</p>
       </div>
     </details>
@@ -823,7 +835,7 @@
       </tr>
       <tr>
         <td>Import says the file is invalid</td>
-        <td>Only <code>.cercrmdb</code> files exported from Sharbor can be imported. Check the file wasn't renamed or altered.</td>
+        <td>Choose a <code>.sharbordb</code> file exported from Sharbor. Older <code>.cercrmdb</code> backups remain supported for compatibility. Check that the file wasn't renamed or altered.</td>
       </tr>
       <tr>
         <td>Totals look wrong</td>
@@ -845,8 +857,8 @@
   <section id="contact">
     <h2>Contact support</h2>
     <p>
-      If none of the above helps, get in touch. Every message is read by a human, and replies
-      usually arrive within 2–3 business days.
+      If none of the above helps, get in touch. Every message is read by a human, and we aim to reply
+      within 2–3 business days.
     </p>
     <p>To help resolve things on the first reply, please include:</p>
     <ul>
@@ -859,12 +871,13 @@
     <div class="callout strongbox">
       <p>
         <span class="key">Please don't send student data, payment details, or backup files.</span>
-        They're never needed for support, and Sharbor is built specifically so that this information
-        never has to leave your device.
+        They are not needed for ordinary support. A screenshot can itself contain personal
+        information, so redact it before sending.
       </p>
     </div>
     <div class="contact-card">
-      <p style="margin-bottom:4px;"><strong>GLC Studios</strong> — Sharbor Support</p>
+      <p style="margin-bottom:4px;"><strong>Sharbor Support</strong> — operated independently under the GLC Studios brand</p>
+      <p style="margin-bottom:4px;">Türkiye · GLC Studios is a brand name, not a separate company or registered trademark.</p>
       <a href="mailto:sharbor@glcstudios.com">sharbor@glcstudios.com</a>
     </div>
     <a class="back-to-top" href="#top">↑ Back to top</a>
@@ -875,7 +888,7 @@
 <footer>
   <a href="https://gulac.github.io/TUPPs/Sharbor/IOS/privacy_policy_en.html">Privacy Policy</a> &nbsp;·&nbsp;
   <a href="https://gulac.github.io/TUPPs/Sharbor/IOS/terms_of_use_en.html">Terms of Use</a><br><br>
-  © 2026 GLC Studios. All rights reserved. Sharbor is a trademark of GLC Studios.
+  © 2026 Sharbor. Published independently under the GLC Studios brand.
 </footer>
 
 </body>
