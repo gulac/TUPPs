@@ -10,6 +10,7 @@ Here is what we are building for the next versions of BookBook.
 - **Richer statistics:** explore your reading habits in more detail on the Statistics page.
 - **Custom day start:** choose what time your day begins, so late-night reading counts toward the right day.
 - **Genre statistics:** see your stats and how your books are spread across genres, right at the top of the Book genres page.
+[ios] - **Landscape improvements:** a better experience when you use BookBook with your device held sideways.
 
 <!-- lang:tr -->
 ## Üzerinde çalışıyoruz
@@ -21,6 +22,7 @@ BookBook'un sonraki sürümleri için hazırladıklarımız burada.
 - **Daha zengin istatistikler:** İstatistikler sayfasında okuma alışkanlıklarını daha ayrıntılı keşfet.
 - **Gün başlangıç saati:** gününün saat kaçta başlayacağını sen seç, gece geç saatte okuduğun sayfalar doğru güne yazılsın.
 - **Tür istatistikleri:** Kitap türleri sayfasının başında istatistiklerini ve kitaplarının türlere göre dağılımını gör.
+[ios] - **Yatay mod iyileştirmeleri:** cihazını yatay tuttuğunda da BookBook'u rahatça kullan.
 
 <!-- lang:ar -->
 ## قيد العمل
@@ -32,6 +34,7 @@ BookBook'un sonraki sürümleri için hazırladıklarımız burada.
 - **إحصائيات أكثر ثراءً:** استكشف عاداتك في القراءة بتفصيل أكبر في صفحة الإحصائيات.
 - **وقت بداية اليوم:** اختر الساعة التي يبدأ فيها يومك، لتُحتسب قراءتك في وقت متأخر من الليل لليوم الصحيح.
 - **إحصائيات الأنواع:** اطّلع على إحصائياتك وتوزيع كتبك حسب النوع في أعلى صفحة أنواع الكتب.
+[ios] - **تحسينات الوضع الأفقي:** تجربة أفضل عند استخدام BookBook وجهازك في الوضع الأفقي.
 
 <!-- lang:da -->
 ## Det arbejder vi på
@@ -43,6 +46,7 @@ Det her bygger vi til de næste versioner af BookBook.
 - **Mere omfattende statistik:** udforsk dine læsevaner mere detaljeret på siden Statistik.
 - **Selvvalgt starttidspunkt for dagen:** vælg, hvornår din dag begynder, så sen læsning tæller på den rigtige dag.
 - **Genrestatistik:** se din statistik og fordelingen af dine bøger på genrer øverst på siden Boggenrer.
+[ios] - **Forbedringer i liggende format:** en bedre oplevelse, når du bruger BookBook med enheden vandret.
 
 <!-- lang:de -->
 ## Daran arbeiten wir
@@ -54,6 +58,7 @@ Das entwickeln wir gerade für die nächsten Versionen von BookBook.
 - **Umfangreichere Statistiken:** Entdecke deine Lesegewohnheiten auf der Seite „Statistiken“ noch genauer.
 - **Eigener Tagesbeginn:** Lege fest, um wie viel Uhr dein Tag beginnt, damit spätes Lesen am richtigen Tag zählt.
 - **Genre-Statistiken:** Sieh ganz oben auf der Seite „Buchgenres“ deine Statistiken und die Verteilung deiner Bücher auf die Genres.
+[ios] - **Verbesserungen im Querformat:** Ein besseres Erlebnis, wenn du BookBook im Querformat nutzt.
 
 <!-- lang:es -->
 ## En desarrollo
@@ -65,6 +70,7 @@ Esto es lo que estamos preparando para las próximas versiones de BookBook.
 - **Estadísticas más completas:** explora tus hábitos de lectura con más detalle en la página Estadísticas.
 - **Hora de inicio del día:** elige a qué hora empieza tu día para que lo que lees de madrugada cuente en el día correcto.
 - **Estadísticas por género:** consulta tus estadísticas y la distribución de tus libros por género al principio de la página Géneros de libros.
+[ios] - **Mejoras en horizontal:** una mejor experiencia al usar BookBook con el dispositivo en horizontal.
 
 <!-- lang:fi -->
 ## Työn alla
@@ -76,6 +82,7 @@ Näitä rakennamme BookBookin seuraaviin versioihin.
 - **Monipuolisemmat tilastot:** tutustu lukutottumuksiisi tarkemmin Tilastot-sivulla.
 - **Päivän alkamisaika:** valitse, mihin aikaan päiväsi alkaa, jotta myöhäinen lukeminen lasketaan oikealle päivälle.
 - **Genretilastot:** näe tilastosi ja kirjojesi jakautuminen genreittäin Genret-sivun yläosassa.
+[ios] - **Vaakatilan parannukset:** parempi käyttökokemus, kun käytät BookBookia vaakasuunnassa.
 
 <!-- lang:fr -->
 ## En préparation
@@ -87,6 +94,7 @@ Voici ce que nous préparons pour les prochaines versions de BookBook.
 - **Statistiques enrichies :** explorez vos habitudes de lecture plus en détail sur la page Statistiques.
 - **Heure de début de journée :** choisissez l'heure à laquelle votre journée commence, pour que vos lectures tardives comptent pour le bon jour.
 - **Statistiques par genre :** retrouvez vos statistiques et la répartition de vos livres par genre en haut de la page Genres de livres.
+[ios] - **Améliorations en mode paysage :** une meilleure expérience lorsque vous utilisez BookBook avec votre appareil à l'horizontale.
 
 <!-- lang:hi -->
 ## इन पर काम चल रहा है
@@ -98,6 +106,7 @@ BookBook के अगले संस्करणों के लिए हम
 - **ज़्यादा समृद्ध आँकड़े:** आँकड़े पेज पर अपनी पढ़ने की आदतों को और विस्तार से जानें।
 - **दिन शुरू होने का समय:** चुनें कि आपका दिन कितने बजे शुरू हो, ताकि देर रात की पढ़ाई सही दिन में गिनी जाए।
 - **विधाओं के आँकड़े:** किताबों की विधाएँ पेज के ऊपर अपने आँकड़े और विधाओं के अनुसार किताबों का बँटवारा देखें।
+[ios] - **लैंडस्केप मोड में सुधार:** डिवाइस को आड़ा रखकर BookBook इस्तेमाल करने का बेहतर अनुभव।
 
 <!-- lang:it -->
 ## In lavorazione
@@ -109,6 +118,7 @@ Ecco a cosa stiamo lavorando per le prossime versioni di BookBook.
 - **Statistiche più ricche:** esplora le tue abitudini di lettura più nel dettaglio nella pagina Statistiche.
 - **Ora di inizio della giornata:** scegli a che ora inizia la tua giornata, così le letture notturne contano per il giorno giusto.
 - **Statistiche per genere:** trova le statistiche e la distribuzione dei tuoi libri per genere in cima alla pagina Generi dei libri.
+[ios] - **Miglioramenti in orizzontale:** un'esperienza migliore quando usi BookBook con il dispositivo in orizzontale.
 
 <!-- lang:ja -->
 ## 開発中の機能
@@ -120,6 +130,7 @@ BookBook の次のバージョンに向けて開発中の機能です。
 - **より充実した統計**：統計ページで読書の傾向をさらに詳しく確認できます。
 - **1 日の開始時刻の設定**：1 日が始まる時刻を選べるので、深夜の読書も正しい日に記録されます。
 - **ジャンルの統計**：「本のジャンル」ページの上部で、統計とジャンルごとの本の割合を確認できます。
+[ios] - **横向き表示の改善**：デバイスを横向きにしても BookBook をより快適に使えるようにします。
 
 <!-- lang:ko -->
 ## 개발 중인 기능
@@ -131,6 +142,7 @@ BookBook의 다음 버전을 위해 만들고 있는 기능입니다.
 - **더 풍부한 통계:** 통계 페이지에서 독서 습관을 더 자세히 살펴보세요.
 - **하루 시작 시간 설정:** 하루가 시작되는 시간을 선택해 늦은 밤 독서도 올바른 날짜에 기록하세요.
 - **장르 통계:** 도서 장르 페이지 상단에서 통계와 장르별 책 분포를 확인하세요.
+[ios] - **가로 모드 개선:** 기기를 가로로 두고 BookBook을 사용할 때 더 나은 경험을 제공합니다.
 
 <!-- lang:nb -->
 ## Dette jobber vi med
@@ -142,6 +154,7 @@ Dette bygger vi til de neste versjonene av BookBook.
 - **Mer omfattende statistikk:** utforsk lesevanene dine mer detaljert på siden Statistikk.
 - **Valgfritt starttidspunkt for dagen:** velg når dagen din begynner, så sen lesing teller på riktig dag.
 - **Sjangerstatistikk:** se statistikken din og fordelingen av bøkene dine på sjangre øverst på siden Boksjangre.
+[ios] - **Forbedringer i liggende modus:** en bedre opplevelse når du bruker BookBook med enheten liggende.
 
 <!-- lang:nl -->
 ## Hier werken we aan
@@ -153,6 +166,7 @@ Dit bouwen we voor de volgende versies van BookBook.
 - **Uitgebreidere statistieken:** ontdek je leesgewoonten nog beter op de pagina Statistieken.
 - **Eigen starttijd van de dag:** kies hoe laat je dag begint, zodat laat lezen bij de juiste dag hoort.
 - **Genrestatistieken:** bekijk je statistieken en de verdeling van je boeken over genres bovenaan de pagina Boekgenres.
+[ios] - **Verbeteringen in liggende stand:** een betere ervaring als je BookBook in de liggende stand gebruikt.
 
 <!-- lang:pl -->
 ## Nad czym pracujemy
@@ -164,6 +178,7 @@ Oto, co przygotowujemy na kolejne wersje BookBook.
 - **Bogatsze statystyki:** poznawaj swoje nawyki czytelnicze dokładniej na stronie Statystyki.
 - **Godzina początku dnia:** wybierz, o której zaczyna się Twój dzień, aby późne czytanie liczyło się do właściwego dnia.
 - **Statystyki gatunków:** sprawdzaj statystyki i rozkład swoich książek według gatunków na górze strony Gatunki książek.
+[ios] - **Ulepszenia trybu poziomego:** wygodniejsze korzystanie z BookBook, gdy trzymasz urządzenie poziomo.
 
 <!-- lang:ru -->
 ## Над чем мы работаем
@@ -175,6 +190,7 @@ Oto, co przygotowujemy na kolejne wersje BookBook.
 - **Более подробная статистика:** изучайте свои привычки чтения детальнее на странице «Статистика».
 - **Время начала дня:** выберите, во сколько начинается ваш день, чтобы чтение поздней ночью засчитывалось за нужный день.
 - **Статистика по жанрам:** смотрите статистику и распределение книг по жанрам в верхней части страницы «Жанры книг».
+[ios] - **Улучшения горизонтального режима:** удобнее пользоваться BookBook, когда устройство повёрнуто горизонтально.
 
 <!-- lang:sv -->
 ## Det här jobbar vi på
@@ -186,6 +202,7 @@ Det här bygger vi för nästa versioner av BookBook.
 - **Mer omfattande statistik:** utforska dina läsvanor mer i detalj på sidan Statistik.
 - **Egen starttid för dagen:** välj när din dag börjar, så att sen läsning räknas till rätt dag.
 - **Genrestatistik:** se din statistik och hur dina böcker fördelar sig på genrer högst upp på sidan Bokgenrer.
+[ios] - **Förbättringar i liggande läge:** en bättre upplevelse när du använder BookBook med enheten liggande.
 
 <!-- lang:zh-Hans -->
 ## 正在开发
@@ -197,6 +214,7 @@ Det här bygger vi för nästa versioner av BookBook.
 - **更丰富的统计**：在统计页面更详细地了解你的阅读习惯。
 - **自定义每天开始时间**：选择一天开始的时间，让深夜阅读计入正确的日期。
 - **类型统计**：在“图书类型”页面顶部查看统计数据和图书的类型分布。
+[ios] - **横屏模式改进**：横向使用设备时，BookBook 的体验会更好。
 
 <!-- BOOKBOOK_CONTENT_END -->
 
