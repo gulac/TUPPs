@@ -8,5 +8,8 @@
 !*.html
 !**/*.html
 
+# Keep Markdown files anywhere in the tree
+!*.md
+
 # Keep this .gitignore tracked
 !.gitignore
